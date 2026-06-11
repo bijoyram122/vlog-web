@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* <!-- header.... --> */
+
+.img-sec img {
+    width: 150px;
+    margin-left: 20px;
+
+}
+
+.master-head {
+    background-color: black;
+    text-align: center;
+}
+
+.nav-bar a {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin: 20px 10px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(12, 14, 21, 0.1);
+    transition: 0.4s ease;
+}
+
+
+.nav-bar a:hover {
+    background-color: rgba(122, 145, 11, 0.4);
+    transform: scale(1.1);
+}
+
+
+
+
+[class*="cal-"] {
+    float: left;
+    clear: both;
+}
+
+[class*="cal-"] {
+    width: 100%;
+}
+
+.master-head::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+/* 
+<!-- header.... --> */
+
+
+[class*="cal-"] {
+    float: left;
+    clear: both;
+}
+
+
+.potf-pic img {
+    height: 500px;
+    width: 90%;
+    margin: 20px 0;
+    border: 2px solid black;
+
+}
+
+.prot {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(12, 14, 21, 0.1);
+}
+
+.potf-dec h2 {
+    color: white;
+    width: 60%;
+    background-color: black;
+    font-size: 2.5rem;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+.potf {
+    text-align: right;
+}
+
+.potf-dec p {
+    margin: 0 auto;
+
+}
+
+
+
+.prot::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+
+
+.heading {
+
+    line-height: 150px;
+    font-size: 5rem;
+    font-family: "Italianno", cursive;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+
+.box-des {
+    text-align: center;
+    margin: 20px;
+    background-color: gainsboro;
+    max-width: 90%;
+    border-radius: 20px;
+    transition: 0.4s ease;
+
+}
+
+.box-des:hover {
+    transform: scale(1.1);
+}
+
+.box-des h2 {
+    margin-top: 30px;
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.box-des p {
+
+    padding: 40px;
+}
+
+.edu {
+    font-size: 1.8rem;
+    margin-top: 10px;
+}
+
+.yell {
+    margin-bottom: 30px;
+    width: auto;
+    font-size: 1rem;
+    padding: 10px;
+    background-color: yellow;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.yell:hover {
+    background-color: greenyellow;
+}
+
+
+#about-me {
+    text-align: center;
+    background-color: gray;
+}
+
+#about-me::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+/* protfolio.. */
+.pot {
+    text-align: center;
+    background-color: rgba(122, 145, 11, 0.4);
+
+}
+
+.my-pic img {
+    height: 410px;
+    width: 300px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+    box-shadow: 4px 4px 4px black;
+}
+
+.my-pic img:hover {
+    transform: scale(1.1);
+}
+
+.pot::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+/* about pic */
+#blog-p {
+
+    text-align: center;
+
+
+
+}
+
+.b-img img {
+    height: 100%;
+    width: 100%;
+
+
+
+}
+
+.post-b {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    box-shadow: 2px 4px 8px black;
+    height: auto;
+    transition: transform 0.4s;
+}
+
+.post-b:hover {
+    transform: scale(1.1);
+}
+
+.b-head {
+    text-align: left;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+
+.b-head h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.b-head h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.b-head p {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.yell-g {
+    margin-bottom: 20px;
+    width: auto;
+    font-size: 1rem;
+    padding: 10px;
+    background-color: yellow;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+
+}
+
+.yell-g:hover {
+    background-color: greenyellow;
+}
+
+
+.alco {
+    height: 200px;
+    text-align: center;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #4c4c4c;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 4px 8px black;
+    margin-bottom: 70px;
+}
+
+.alco h1 {
+    background-color: aliceblue;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+     font-family: "Handlee", cursive;
+}
+
+
+
+.footer {
+    text-align: center;
+    background-color: #4c4c4c;
+    min-width: 80%;
+    margin: 10px 20px;
+
+
+}
+
+.full-item {
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #3f3e3e;
+    box-shadow: 2px 4px 8px #2d2c2c;
+    padding: 20px;
+}
+
+.id-name {
+    margin: 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.id-name label {
+    font-size: 1.6rem;
+    flex: 0.3;
+}
+
+input,
+textarea {
+    flex: 0.7;
+    padding: 1.5rem 1rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.6rem;
+}
+input{
+    min-width: 70%;
+    margin: 0 10px;
+}
+
+input,
+textarea:focus {
+    border: none;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+    height: 12vh;
+    margin: 0 10px;
+}
+
+
+.yell-h {
+    width: 100px;
+    font-size: 1rem;
+    padding: 15px;
+    background-color: yellow;
+    border: none;
+    border-radius: 1000px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.heading-l {
+
+    line-height: 220px;
+    font-size: 5rem;
+    font-family: "Italianno", cursive;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+
+
+
+
+.icon {
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    transition: 0.3s ease;
+    background-color: transparent;
+    margin: 5px;
+    transition: transform 0.4s ;
+    cursor: pointer;
+}
+.icon:hover{
+    transform: scale(1.2);
+}
+
+.footer-i {
+    text-align: center;
+    background-color: cornflowerblue;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.foot-icon {
+    justify-content: flex-end;
+}
+
+
+
+.foot-text h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    color: white;
+     font-family: "Handlee", cursive;
+}
+
+.footer-i::after {
+    display: table;
+    content: "";
+    clear: both;
+}

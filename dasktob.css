@@ -1,0 +1,208 @@
+.cal-1 {
+    width: 8.33%;
+}
+
+.cal-2 {
+    width: 16.66%;
+}
+
+.cal-3 {
+    width: 25%;
+}
+
+.cal-4 {
+    width: 33.33%;
+}
+
+.cal-5 {
+    width: 41.66%;
+}
+
+.cal-6 {
+    width: 50%;
+}
+
+.cal-7 {
+    width: 58.33%;
+}
+
+.cal-8 {
+    width: 66.66%;
+}
+
+.cal-9 {
+    width: 75%;
+}
+
+.cal-10 {
+    width: 83.33%;
+}
+
+.cal-11 {
+    width: 91.66%;
+}
+
+.cal-12 {
+    width: 100%;
+}
+
+.master-head {
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* <!-- header.... --> */
+
+
+.img-sec img {
+    justify-content: flex-start;
+    display: flex;
+     width: 100px;
+    margin-left: 20px;
+    height: auto;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+    
+}
+
+.nav-bar a {
+    background-color: transparent;
+    display: block;
+    width: 0 auto;
+}
+
+.master-head {
+    text-align: center;
+}
+
+/* <!-- header.... --> */
+
+.prot {
+    display: flex;
+    flex-direction: row;
+}
+
+.potf-pic img {
+    height: 500px;
+    width: auto;
+
+
+}
+
+.body22 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.box-des {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+}
+
+
+.my-pic img {
+    height: 280px;
+    width: 200px;
+    margin: 10px 20px 40px 20px;
+    float: left;
+
+}
+
+.my-pic {
+    margin-left: 20px;
+}
+
+.yell {
+    margin-bottom: 30px;
+    width: 50%;
+    font-size: 1rem;
+    padding: 10px;
+    background-color: yellow;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.hori {
+    border: 1px solid black;
+    margin: 20px auto;
+    width: 100%;
+    margin-right: 0;
+}
+
+.pot::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+.post-b {
+    display: flex;
+}
+
+.b-head {
+    flex: 2;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+
+.b-img img {
+    height: 350px;
+    width: 250px;
+    display: block;
+}
+
+.yell-g {
+    margin-top: 3rem;
+}
+
+
+.full-item{
+font-size:1.5rem;
+text-align: center;
+margin:0 auto;
+position: relative;
+bottom: 25px;
+width: 40%;
+padding: 1rem;
+background-color: #3f3e3e;
+box-shadow: 2px 4px 8px #2d2c2c;
+}
+
+.footer-i{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.foot-icon{
+    text-align: right;
+    margin-right: 30px;
+}
+
+
+.foot-text h3{
+    text-align: start;
+    padding: 0;
+    margin-left: 30px;
+}
+
+.my-head{
+    position:sticky ;
+    top: 0;
+    
+}
